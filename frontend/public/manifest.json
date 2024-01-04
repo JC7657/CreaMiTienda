@@ -1,0 +1,17 @@
+{
+    "id": "/",
+    "scope": "/",
+    "name": "CreaMiTienda",
+    "display": "standalone",
+    "start_url": "/",
+    "short_name": "CreaMiTienda",
+    "theme_color": "#ffffff",
+    "description": "PWA Ecommerce",
+    "orientation": "any",
+    "background_color": "#ffffff",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "display_override": ["window-controls-overlay"],
+    "features": ["Cross Platform", "fast", "simple"],
+    "categories": ["social"]
+}

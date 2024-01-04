@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Creamitienda" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <script src="https://kit.fontawesome.com/98b31331fd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Creamitienda</title>
+    <!-- icono -->
+    <link rel="icon" href="./src/resources/img/C3.ico" />
+    <script type="module" src="./src/main.tsx"></script>
+  </head>
+  <body >
+    <div  id="root" ></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./public/sw')
+      }
+    </script>
+  </body>
+</html>
